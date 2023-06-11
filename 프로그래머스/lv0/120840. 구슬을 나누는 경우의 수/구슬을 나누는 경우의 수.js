@@ -5,12 +5,9 @@ function solution(balls, share) {
     
     // balls 안에서 첫 번째 share를 뽑을 수 있는 경우의 수 = balls 
     // balls 안에서 두 번째 share를 뽑을 수 있는 경우의 수 = balls - 1
-    
-    // balls 5 share 3
-    // balls 3 share 2
+
     let answer = 1
     let same = 1
-    // balls 5, share 3
     if(share==1){
     return balls
     }
